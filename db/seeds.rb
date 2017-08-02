@@ -20,8 +20,7 @@ manowar = Artist.create(name: 'Manowar',
 	image_url: 'https://c-sf.smule.com/sf/s25/arr/62/85/a75d3254-25cf-4972-bd22-b15f1478a3ec.jpg')
 
 10.times do |i|
-  ledzeppelin.albums.create(name: i + 1, image_url: 'https://ichef.bbci.co.uk/images/ic/256x256/p022353z.jpg', released_at: 1970 )
-  rush.albums.create(name: i + 1, image_url: 'https://vignette3.wikia.nocookie.net/rockband/images/9/93/Moving_Pictures.png/revision/latest?cb=20121110021513', released_at: 2007 )
-  manowar.albums.create(name: i + 1,, image_url: 'http://www.oohmusic.com/uploaded_audio/image/audio_image/291/large/_v=1414922365', released_at: 1980)
-  # book.chapters[i].sentences.create(word_count: rand(100))
+  ledzeppelin.albums.create(name: i + 1, image_url: "https://ichef.bbci.co.uk/images/ic/256x256/p022353z.jpg", released_at: 1970 )
+  rush.albums.create(name: i + 1, image_url: "https://vignette3.wikia.nocookie.net/rockband/images/9/93/Moving_Pictures.png/revision/latest?cb=20121110021513", released_at: 2007 )
+  manowar.albums.create(name: i + 1, image_url: "http://www.oohmusic.com/uploaded_audio/image/audio_image/291/large/_v=1414922365", released_at: 1980)
 end
