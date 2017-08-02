@@ -1,0 +1,9 @@
+<h1>Listado de Artistas</h1>
+
+<ul>
+	<% @artists.each do |artist| %>
+	<li><%= link_to artist.name, artist_path(artist)  %>
+	<img src="<%= artist.image_url %>" alt=""></li>
+	<% end %>
+
+</ul>
